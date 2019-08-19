@@ -1,0 +1,10 @@
+Você faz parte de uma equipe de desenvolvimento que está criando um app Waze like, o aplicativo
+encontra a melhor rota a partir de pontos no mapa.
+
+Uma parte do trabalho já foi feita, um subgrupo da equipe mapeou os pontos e exportou para XML.
+
+Cabe a você fazer o cálculo de melhor rota.
+
+----------------------------------------------------------------
+Para este desafio importe os jars na pasta para facilitar, também está sendo disponibilizado um
+arquivo com exemplo de como usar os jars.
