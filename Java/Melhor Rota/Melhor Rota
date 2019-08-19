@@ -8,3 +8,105 @@ Cabe a você fazer o cálculo de melhor rota.
 ----------------------------------------------------------------
 Para este desafio importe os jars na pasta para facilitar, também está sendo disponibilizado um
 arquivo com exemplo de como usar os jars.
+
+
+
+--------------------------------------
+MODELO DE SAÍDA NO CONSOLE:
+-------------------------------------
+
+CALCULANDO ROTA de (A) até (Z)...
+
+MELHOR ROTA: 
+ > A > C > E > F > V > Z - Custo: 20
+ 
+Outras rotas: 
+ > A > I > E > C > H > D > J > F > V > Z - Custo: 31
+ > A > I > E > F > V > Z - Custo: 24
+ > A > I > S > T > P > M > E > C > H > D > J > F > V > Z - Custo: 56
+ > A > I > S > T > P > M > E > F > V > Z - Custo: 49
+ > A > I > S > T > P > M > F > V > Z - Custo: 47
+ > A > I > S > T > P > M > G > J > D > H > C > E > F > V > Z - Custo: 56
+ > A > I > S > T > P > M > G > J > F > V > Z - Custo: 55
+ > A > I > S > T > P > N > L > R > M > E > C > H > D > J > F > V > Z - Custo: 59
+ > A > I > S > T > P > N > L > R > M > E > F > V > Z - Custo: 52
+ > A > I > S > T > P > N > L > R > M > F > V > Z - Custo: 50
+ > A > I > S > T > P > N > L > R > M > G > J > D > H > C > E > F > V > Z - Custo: 59
+ > A > I > S > T > P > N > L > R > M > G > J > F > V > Z - Custo: 58
+ > A > I > S > T > P > N > L > R > O > B > H > C > E > F > V > Z - Custo: 59
+ > A > I > S > T > P > N > L > R > O > B > H > D > J > F > V > Z - Custo: 62
+ > A > I > S > T > P > N > L > R > O > H > C > E > F > V > Z - Custo: 55
+ > A > I > S > T > P > N > L > R > O > H > D > J > F > V > Z - Custo: 58
+ > A > I > S > T > P > N > L > R > G > J > D > H > C > E > F > V > Z - Custo: 54
+ > A > I > S > T > P > N > L > R > G > J > F > V > Z - Custo: 53
+ > A > I > S > T > P > N > L > U > V > Z - Custo: 38
+ > A > I > S > T > P > N > C > E > F > V > Z - Custo: 48
+ > A > I > S > T > P > N > C > H > D > J > F > V > Z - Custo: 53
+ > A > I > S > T > P > K > B > H > C > E > F > V > Z - Custo: 51
+ > A > I > S > T > P > K > B > H > D > J > F > V > Z - Custo: 54
+ > A > I > S > T > Q > K > B > H > C > E > F > V > Z - Custo: 52
+ > A > I > S > T > Q > K > B > H > D > J > F > V > Z - Custo: 55
+ > A > I > S > T > Q > N > L > R > M > E > C > H > D > J > F > V > Z - Custo: 58
+ > A > I > S > T > Q > N > L > R > M > E > F > V > Z - Custo: 51
+ > A > I > S > T > Q > N > L > R > M > F > V > Z - Custo: 49
+ > A > I > S > T > Q > N > L > R > M > G > J > D > H > C > E > F > V > Z - Custo: 58
+ > A > I > S > T > Q > N > L > R > M > G > J > F > V > Z - Custo: 57
+ > A > I > S > T > Q > N > L > R > O > B > H > C > E > F > V > Z - Custo: 58
+ > A > I > S > T > Q > N > L > R > O > B > H > D > J > F > V > Z - Custo: 61
+ > A > I > S > T > Q > N > L > R > O > H > C > E > F > V > Z - Custo: 54
+ > A > I > S > T > Q > N > L > R > O > H > D > J > F > V > Z - Custo: 57
+ > A > I > S > T > Q > N > L > R > G > J > D > H > C > E > F > V > Z - Custo: 53
+ > A > I > S > T > Q > N > L > R > G > J > F > V > Z - Custo: 52
+ > A > I > S > T > Q > N > L > U > V > Z - Custo: 37
+ > A > I > S > T > Q > N > C > E > F > V > Z - Custo: 47
+ > A > I > S > T > Q > N > C > H > D > J > F > V > Z - Custo: 52
+ > A > I > S > T > Q > L > R > M > E > C > H > D > J > F > V > Z - Custo: 54
+ > A > I > S > T > Q > L > R > M > E > F > V > Z - Custo: 47
+ > A > I > S > T > Q > L > R > M > F > V > Z - Custo: 45
+ > A > I > S > T > Q > L > R > M > G > J > D > H > C > E > F > V > Z - Custo: 54
+ > A > I > S > T > Q > L > R > M > G > J > F > V > Z - Custo: 53
+ > A > I > S > T > Q > L > R > O > B > H > C > E > F > V > Z - Custo: 54
+ > A > I > S > T > Q > L > R > O > B > H > D > J > F > V > Z - Custo: 57
+ > A > I > S > T > Q > L > R > O > H > C > E > F > V > Z - Custo: 50
+ > A > I > S > T > Q > L > R > O > H > D > J > F > V > Z - Custo: 53
+ > A > I > S > T > Q > L > R > G > J > D > H > C > E > F > V > Z - Custo: 49
+ > A > I > S > T > Q > L > R > G > J > F > V > Z - Custo: 48
+ > A > I > S > T > Q > L > U > V > Z - Custo: 33
+ > A > I > S > T > O > B > H > C > E > F > V > Z - Custo: 46
+ > A > I > S > T > O > B > H > D > J > F > V > Z - Custo: 49
+ > A > I > S > T > O > H > C > E > F > V > Z - Custo: 42
+ > A > I > S > T > O > H > D > J > F > V > Z - Custo: 45
+ > A > I > S > U > V > Z - Custo: 26
+ > A > I > S > V > Z - Custo: 22
+ > A > C > E > I > S > T > P > M > F > V > Z - Custo: 48
+ > A > C > E > I > S > T > P > M > G > J > F > V > Z - Custo: 56
+ > A > C > E > I > S > T > P > N > L > R > M > F > V > Z - Custo: 51
+ > A > C > E > I > S > T > P > N > L > R > M > G > J > F > V > Z - Custo: 59
+ > A > C > E > I > S > T > P > N > L > R > O > B > H > D > J > F > V > Z - Custo: 63
+ > A > C > E > I > S > T > P > N > L > R > O > H > D > J > F > V > Z - Custo: 59
+ > A > C > E > I > S > T > P > N > L > R > G > J > F > V > Z - Custo: 54
+ > A > C > E > I > S > T > P > N > L > U > V > Z - Custo: 39
+ > A > C > E > I > S > T > P > K > B > H > D > J > F > V > Z - Custo: 55
+ > A > C > E > I > S > T > Q > K > B > H > D > J > F > V > Z - Custo: 56
+ > A > C > E > I > S > T > Q > N > L > R > M > F > V > Z - Custo: 50
+ > A > C > E > I > S > T > Q > N > L > R > M > G > J > F > V > Z - Custo: 58
+ > A > C > E > I > S > T > Q > N > L > R > O > B > H > D > J > F > V > Z - Custo: 62
+ > A > C > E > I > S > T > Q > N > L > R > O > H > D > J > F > V > Z - Custo: 58
+ > A > C > E > I > S > T > Q > N > L > R > G > J > F > V > Z - Custo: 53
+ > A > C > E > I > S > T > Q > N > L > U > V > Z - Custo: 38
+ > A > C > E > I > S > T > Q > L > R > M > F > V > Z - Custo: 46
+ > A > C > E > I > S > T > Q > L > R > M > G > J > F > V > Z - Custo: 54
+ > A > C > E > I > S > T > Q > L > R > O > B > H > D > J > F > V > Z - Custo: 58
+ > A > C > E > I > S > T > Q > L > R > O > H > D > J > F > V > Z - Custo: 54
+ > A > C > E > I > S > T > Q > L > R > G > J > F > V > Z - Custo: 49
+ > A > C > E > I > S > T > Q > L > U > V > Z - Custo: 34
+ > A > C > E > I > S > T > O > B > H > D > J > F > V > Z - Custo: 50
+ > A > C > E > I > S > T > O > H > D > J > F > V > Z - Custo: 46
+ > A > C > E > I > S > U > V > Z - Custo: 27
+ > A > C > E > I > S > V > Z - Custo: 23
+ > A > C > H > D > J > F > E > I > S > T > P > N > L > U > V > Z - Custo: 46
+ > A > C > H > D > J > F > E > I > S > T > Q > N > L > U > V > Z - Custo: 45
+ > A > C > H > D > J > F > E > I > S > T > Q > L > U > V > Z - Custo: 41
+ > A > C > H > D > J > F > E > I > S > U > V > Z - Custo: 34
+ > A > C > H > D > J > F > E > I > S > V > Z - Custo: 30
+ > A > C > H > D > J > F > V > Z - Custo: 25
